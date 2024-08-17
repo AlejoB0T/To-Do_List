@@ -26,10 +26,36 @@ Este proyecto es una aplicación de consola escrita en C# .NET Framework 4.8 que
 
 4. **Ejecuta la aplicación:**
    - Ve a Debug (Depurar) -> Start without debugging(Iniciar sin depurar) o solo presiona la tecla "F5"
-  
+
+## Tecnologías Utilizadas
+
+- C# .NET Framework 4.8
+- Visual Studio 2022
+
 ## Caracteristicas
 
 **Agregar Tarea:**
  - Permite al usuario agregar todas sus tareas a la lista
  - Especifica titulo, descripción y fecha limite (solo si asi lo desea)
- - La fecha limite en caso de querer ponerla debe estar en formaro DD-MM-YYYY 
+ - La fecha limite en caso de querer ponerla debe estar en formaro DD-MM-YYYY
+
+**Mostarar Tareas:**
+- Muestra todas las tareas en la lista
+- La tarea se muestra con su índice, título, descripción, fecha límite (en caso de tenerla) y si esta pendiente o completada
+
+**Completar Tareas:**
+- Permite marcar como completada la tarea que el usuario desee por medio del índice
+
+**Eliminar Tarea:**
+- Permite eliminar la tarea que el usuario desee por medio del índice
+
+**Manejo de Errores:**
+Por medio de Try Catch;
+- Implementa manejo de excepciones para entradas inválidas, como introducir texto en lugar de números
+- Valida que los números de tarea seleccionados sean válidos y estén dentro del rango de la lista de tareas
+
+**Interfaz de usuario tipo menú:**
+- Menú simple para que el usuario seleccione y haga las diferentes acciones
+
+## Autores
+- **Alejandro Ruiz Benítez** - *Desarrollador principal* - [GitHub](https://github.com/AlejoB0T)
