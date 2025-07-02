@@ -12,7 +12,7 @@ Este proyecto es una aplicación de consola escrita en C# .NET Framework 4.8 que
 ## Instrucciones para Compilar y Ejecutar
 
 1. **Clona el repositorio en tu máquina local:**
-   git clone https://github.com/AlejoB0T/To-Do_List.git
+   git clone https://github.com/ARB369/To-Do_List.git
    cd To-Do_List
 
 2. **Abre el proyecto con Visual Studio:**
@@ -58,4 +58,4 @@ Por medio de Try Catch;
 - Menú simple para que el usuario seleccione y haga las diferentes acciones
 
 ## Autores
-- **Alejandro Ruiz Benítez** - *Desarrollador principal* - [GitHub](https://github.com/AlejoB0T)
+- **Alejandro Ruiz Benítez** - *Desarrollador principal* - [GitHub](https://github.com/ARB369)
